@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Validation</h2>
+
+    <form action="submit.html" onsubmit="return validate(event)">
+<div class="fname">
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" id="fname" required>
+</div>
+
+<div class="lname">
+    <label for="lname">Last Name</label>
+    <input type="text" name="lname" id="lname" required>
+</div>
+
+<div class="email">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+</div>
+
+<div class="password">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+</div>
+
+<div class="gender">
+    Gender:
+   <input type="radio" name="gender">Male
+   <input type="radio" name="gender">Female
+   
+</div>
+<div class="subject">
+    <input type="checkbox" name="subject">Physics
+    <input type="checkbox" name="subject">Chemistry
+    <input type="checkbox" name="subject">Math
+    <input type="checkbox" name="subject">Biology
+</div>
+
+
+<button type="submit" class="btn1"> Submit</button>
+
+    </form>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

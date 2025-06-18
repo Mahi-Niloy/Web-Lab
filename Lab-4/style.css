@@ -1,0 +1,28 @@
+.container{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(218, 207, 214);
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    
+}
+.fname,.lname,.password,.email,.subject,.gender{
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(40, 63, 63);
+    background-color: beige;
+}
+button:hover{
+    color: beige;
+    background-color: rgb(40, 63, 63);
+}
+body{
+    display: flex;
+    height: 100vh;  
+}
+h2{color: rgb(43, 193, 53);}
