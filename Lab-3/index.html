@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="upper_div" id="ud">
+        <p>Welcome to My Static Website</p>
+    </div>
+    <div class="navbar">
+        <a href="#ud">Home</a>
+        <a href="#box">About</a>
+        <a href="#marks">Marks</a>
+        <a href="#contact-section">Contact</a>
+      </div>
+
+<div class="box" id="box">
+    <h1>About This Website</h1>
+    <p>This is a modern static website designed using HTML and css with advanced style and layout</p>
+</div>
+<div class="box">
+    <h1>Our Services</h1>
+    <p>We offer high-quality web design and development services to help bring your ideas to life.</p>
+
+</div>
+
+<div class="pricing-box">
+    <h2>Our Pricing</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Web Design</td>
+          <td>$500</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>SEO Optimization</td>
+          <td>$300</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table1-container" id="marks">
+    <table class="table1">
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Marks</th>
+          <th rowspan="2">Grade</th>
+        </tr>
+        <tr>
+          <th>Math</th>
+          <th>Science</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ali</td>
+          <td>80</td>
+          <td>85</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Sara</td>
+          <td>90</td>
+          <td>88</td>
+          <td>A+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="contact-section" id="contact-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 My Static Website | Designed with <span class="heart">❤️</span></p>
+  </div>
+
+</body>
+</html>
